@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Search for Service and Stop it
+
+isExist = `pgrep httpd`
+if [[ -n  $isExist ]]; then
+    service httpd stop        
+fi

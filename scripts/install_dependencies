@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Installing httpd package
+
+yum install -y httpd
